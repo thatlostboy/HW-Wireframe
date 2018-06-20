@@ -13,6 +13,12 @@ body {
     font-size: 18px;
 }
 
+.col-container {
+    padding: 0px;
+    display: table;
+    background: #777;
+}
+
 .headerCl {
     background-color:#ebebeb;
 }
@@ -24,7 +30,7 @@ body {
 .sectionCl {
     background-color:#ebebeb;
     width: 495px;
-
+    display: table-cell;
 }
 
 .articleCl {
@@ -44,12 +50,11 @@ body {
 
 .asideCl {
     background-color:#ebebeb;
-
-    width: 435px;
-
+    width: 450px;
+    display: table-cell;
+    border-left: 5px solid #777;
 }
 
 .footerCl {
-    clear: both;
     background-color:#ebebeb;
 }
