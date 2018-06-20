@@ -1,16 +1,25 @@
 * {
     box-sizing: border-box;
-    padding: 5px;
-    margin: 5px;
+    margin: 10px;
     text-align: center;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif, 'Helvetica Neue';
-    width: 960px;
     color: #777;
     background: #777;
     font-size: 18px;
+    width: 960px;
+    padding: 0px;
+    margin: auto;  // horizontal center on page
+}
+
+
+h1, p {
+    font-family: Arial, Helvetica, sans-serif, 'Helvetica Neue';
+    font-size: 18px; 
+    margin: 0px;
+    padding: 0px;   
 }
 
 .col-container {
@@ -21,40 +30,61 @@ body {
 
 .headerCl {
     background-color:#ebebeb;
+    line-height: 80px;
 }
 
 .navCl {
     background-color:#ebebeb;
+    line-height: 80px;
+    margin-bottom: 20px;
 }
 
 .sectionCl {
     background-color:#ebebeb;
     width: 495px;
     display: table-cell;
+    padding: 10px;
+}
+
+.sectionTextCl {
+    line-height: 50px;
 }
 
 .articleCl {
     background-color: grey;
-    color: white;
+    color: #ebebeb;
+    margin: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+}
+
+.articletextCl {
+    line-height:30px;
 }
 
 .hxCl {
-    background-color: white;
+    background-color: #ebebeb;
     color: #777;
+    line-height: 45px;
 }
 
 .pxCl {
-    background-color: white;
+    background-color: #ebebeb;
     color: #777;
+    line-height: 45px;
 }
 
 .asideCl {
     background-color:#ebebeb;
-    width: 450px;
+    width: 445px;
     display: table-cell;
-    border-left: 5px solid #777;
+    border-left: 20px solid #777;
 }
 
 .footerCl {
     background-color:#ebebeb;
+    line-height: 80px;
+    margin-top: 20px;
 }
